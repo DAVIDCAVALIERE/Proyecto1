@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Enlace a Fuentes awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Mantenimiento de Computadoras</title>
+  </head>
+  <body>
+    <header>
+      <div class="container text-center bg-dark text-white">
+      <h1>Mantenimiento de Computadoras</h1>
+      </div>
+    </header>
+
+    <div class="container sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="img/brand.png" width="60" height="60" class="d-inline-block align-top" alt="">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Hardware
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#procesador">Procesador</a>
+                <a class="dropdown-item" href="#memoria">Memoria Ram</a>
+                <a class="dropdown-item" href="#tarjeta">Tarjeta Madre</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Software
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#operativo">Sistemas Operativos</a>
+                <a class="dropdown-item" href="#antivirus">Antivirus</a>
+                <a class="dropdown-item" href="#ofimatica">Ofimatica</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">En la web</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner.jpg" class="d-block w-100" alt="banner" style="height: 450px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Arma Tu PC</h5>
+              <p>Para armar tu pc primero debemos conocer sus componentes internos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="banner2" style="height: 450px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mantenimiento Correctivo</h5>
+              <p>Cuando los ordonadores no trabajan bien, debemos hacerles ajustes ya sea de software o hardware.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100" alt="banner3" style="height: 450px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mantenimiento preventivo</h5>
+              <p>Manten tus equipo en optimas condiciones para que puedas sacarle el maximo provecho.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container mt-2 bg-info" style="height: 50px;">
+    </div>
+    <br>
+    <center>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/preventivo.jpg" class="card-img-top" alt="preventivo" style="height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title">Mantenimiento Preventivo</h5>
+            <p class="card-text">Las computadoras son dispositivos altamente delicados, y cualquier inconveniente que pudieran tener, eventualmente
+            repercutirán en el funcionamiento de la misma, con todos los problemas que ello puede ocasionar...
+            </p>
+            <a href="#preventivo" class="btn btn-primary">Seguir Leyendo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/correctivo.png" class="card-img-top" alt="correctivo" style="height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title">Mantenimiento Correctivo</h5>
+            <p class="card-text">Básicamente, el mantenimiento correctivo de una computadora se realiza con el objetivo de solucionar los problemas que
+            se suscitan con el uso del equipo, es decir reparar lo que se pueda haber averiado...
+            </p>
+            <a href="#correctivo" class="btn btn-primary">Seguir Leyendo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/pcsucia.jpg" class="card-img-top" alt="pcsucia" style="height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title">Limpia tu PC</h5>
+            <p class="card-text">Muchos usuarios se preocupan de optimizar su PC internamente, sacando los virus, desinstalando los programas que son
+            poco utilizados y demás tareas, pero se olvidan de la parte más visible de la PC, que es su parte interior...
+            </p>
+            <a href="#limpia" class="btn btn-primary">Seguir Leyendo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </center>
+    <br>
+    <section class="container">
+      <article>
+        <a name=procesador id=procesador></a>
+        <h2>Procesador</h2>        
+        <p>
+          La unidad central de procesamiento (conocida por las siglas CPU, del inglés: Central Processing Unit), es el hardware
+          dentro de un ordenador u otros dispositivos programables, su trabajo es interpretar las instrucciones de un programa
+          informático mediante la realización de las operaciones básicas aritméticas, lógicas y externas (provenientes de la
+          unidad de entrada/salida). Su diseño y avance ha variado notablemente desde su creación, aumentando su eficiencia y
+          potencia, y reduciendo aspectos como el consumo de energía y el costo.
+          
+          Un ordenador puede contener más de una CPU (multiprocesamiento). En la actualidad, los microprocesadores están
+          constituidos por un único circuito integrado (chip) aunque existen los procesadores multinúcleo (varias CPU en un solo
+          circuito integrado). Un circuito integrado que contiene una CPU también puede contener los dispositivos periféricos, y
+          otros componentes de un sistema informático; similar a un microcontrolador (menos potente en RAM) se le denomina sistema
+          en un chip (SoC).
+        </p>
+        <center><img src="img/procesador.jpeg" class="d-block w-100" alt="procesador" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=memoria id=memoria></a>
+        <h2>Memoria Ram</h2>        
+        <p>
+          La memoria de acceso aleatorio (Random Access Memory, RAM) se utiliza como memoria de trabajo de computadoras y otros
+          dispositivos para el sistema operativo, los programas y la mayor parte del software. En la RAM se cargan todas las
+          instrucciones que ejecuta la unidad central de procesamiento (CPU) y otras unidades del computador, además de contener
+          los datos que manipulan los distintos programas.
+          
+          Se denominan «de acceso aleatorio» porque se puede leer o escribir en una posición de memoria con un tiempo de espera
+          igual para cualquier posición, no siendo necesario seguir un orden para acceder (acceso secuencial) a la información de
+          la manera más rápida posible.
+          
+          Durante el encendido de la computadora, la rutina POST verifica que los módulos de RAM estén conectados de manera
+          correcta. En el caso que no existan o no se detecten los módulos, la mayoría de tarjetas madres emiten una serie de
+          sonidos que indican la ausencia de memoria principal. Terminado ese proceso, la memoria BIOS puede realizar un test
+          básico sobre la memoria RAM indicando fallos mayores en la misma.
+        </p>
+        <center><img src="img/memoria.jpg" class="d-block w-100" alt="memoria" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=tarjeta id=tarjeta></a>
+        <h2>Tarjeta Madre</h2>        
+        <p>
+          La placa base, también conocida como tarjeta madre, placa madre o placa principal (motherboard o mainboard en inglés),
+          es una tarjeta de circuito impreso a la que se conectan los componentes que constituyen la computadora.
+          
+          Es una parte fundamental para montar cualquier computadora personal de escritorio o portátil o algún dispositivo. Tiene
+          instalados una serie de circuitos integrados, entre los que se encuentra el circuito integrado auxiliar (chipset), que
+          sirve como centro de conexión entre el microprocesador (CPU), la memoria de acceso aleatorio (RAM), las ranuras de
+          expansión y otros dispositivos.
+          
+          Está instalada dentro de una carcasa o gabinete que por lo general está hecha de chapa y tiene un panel para conectar
+          dispositivos externos y muchos conectores internos y zócalos para instalar componentes internos.
+          
+          La placa base, además incluye un firmware llamado BIOS, que le permite realizar las funcionalidades básicas, como
+          pruebas de los dispositivos, vídeo y manejo del teclado, reconocimiento de dispositivos y carga del sistema operativo.
+        </p>
+        <center><img src="img/tarjeta.jpg" class="d-block w-100" alt="tarjeta" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=operativo id=operativo></a>
+        <h2>Sistemas Operativos</h2>        
+        <p>
+          Un sistema operativo (SO o, frecuentemente, OS —del inglés operating system—) es el software principal o conjunto de
+          programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de
+          aplicación de software, ejecutándose en modo privilegiado respecto de los restantes.
+          
+          Uno de los propósitos del sistema operativo que gestiona el núcleo intermediario consiste en gestionar los recursos de
+          localización y protección de acceso del hardware, hecho que alivia a los programadores de aplicaciones de tener que
+          tratar con estos detalles. La mayoría de aparatos electrónicos que utilizan microprocesadores para funcionar, llevan
+          incorporado un sistema operativo (teléfonos móviles, reproductores de DVD, computadoras, enrutadores, etc.). En cuyo
+          caso, son manejados mediante una interfaz gráfica de usuario, un gestor de ventanas o un entorno de escritorio, si es un
+          celular, mediante una consola o control remoto si es un DVD y, mediante una línea de comandos o navegador web si es un
+          enrutador.
+          
+          El sistema operativo de escritorio dominante es Microsoft Windows con una cuota de mercado de alrededor del 82,74%.
+          macOS de Apple Inc. ocupa el segundo lugar (13,23%), y las variedades de GNU/Linux están colectivamente en tercer lugar
+          (1,57%). En el sector móvil (incluidos teléfonos inteligentes y tabletas), la participación de Android es de hasta un
+          70% en el año 2020.​ Las distribuciones Linux son dominantes en los sectores de servidores y supercomputación.
+          Existen otras clases especializadas de sistemas operativos, como los sistemas integrados y en tiempo real, para muchas
+          aplicaciones.
+        </p>
+        <center><img src="img/sistemas.jpg" class="d-block w-100" alt="operativo" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=antivirus id=antivirus></a>
+        <h2>Antivirus</h2>        
+        <p>
+          Los antivirus son programas cuyo objetivo es detectar y eliminar virus informáticos.​ Con el transcurso del tiempo, los
+          antivirus han evolucionado hacia programas más avanzados que además de buscar y detectar virus informáticos consiguen
+          bloquearlos, desinfectar archivos y prevenir una infección de los mismos. Actualmente son capaces de reconocer otros
+          tipos de malware como spyware, gusanos, troyanos, rootkits, pseudovirus etc.
+        </p>
+        <center><img src="img/antivirus.jpg" class="d-block w-100" alt="antivirus" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=ofimatica id=ofimatica></a>
+        <h2>Ofimatica</h2>        
+        <p>
+          Ofimática (acrónimo de oficina y de informática), a veces también llamado burótica, designa al conjunto de técnicas,
+          aplicaciones y herramientas informáticas que se utilizan en funciones de oficina para optimizar, automatizar, mejorar
+          tareas y procedimientos relacionados. Las herramientas ofimáticas permiten idear, crear, manipular, transmitir o
+          almacenar la información necesaria en una oficina.
+          
+          Comenzó a desarrollarse en la década de los 70, con la masificación de los equipos de oficina que comienzan a incluir
+          microprocesadores, dejándose de usar métodos y herramientas por otras más modernas.
+        </p>
+        <center><img src="img/ofimatica.jpg" class="d-block w-100" alt="ofimatica" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=preventivo id=preventivo></a>
+        <h2>Mantenimiento Preventivo</h2>        
+        <p>
+          Se podría definir al mantenimiento preventivo de una computadora como la necesidad de crear un ámbito de funcionamiento
+          favorable para el computador, es decir la necesidad llevar a cabo una serie de actividades para que el equipo de cómputo
+          se encuentre protegido ante cualquier problema.
+          
+          Por ejemplo, la mayor parte de las computadoras suelen fallar debido a la acumulación de polvo sobre sus componentes o
+          rejillas de ventilación. Es por ello que se hace evidente la necesidad de mantenerlo limpio, tanto por dentro como por
+          fuera, como así también comprobar que todos sus periféricos, cables, adaptadores, estabilizadores y hardware se
+          encuentren en excelentes condiciones de uso.
+          
+          También en esta comprobación deberíamos incluir el software de la computadora, es decir si están actualizados a la
+          última versión el sistema operativo, los programas de usuario y los controladores de dispositivos, ya que esto es de
+          mucha importancia al momento de evitarnos peligros con malware y otros programas malintencionados.
+        </p>
+        <center><img src="img/preventivo.jpg" class="d-block w-100" alt="preventivo" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=correctivo id=correctivo></a>
+        <h2>Mantenimiento Correctivo</h2>        
+        <p>
+          Básicamente, el mantenimiento correctivo de una computadora se realiza con el objetivo de solucionar los problemas que
+          se suscitan con el uso del equipo, es decir reparar lo que se pueda haber averiado.
+          
+          Este mantenimiento correctivo es la forma más simple de proporcionar mantenimiento a una computadora, ya que se realiza
+          una vez que el equipo ha fallado, y por lo general implica el recambio de alguno de los componentes del hardware.
+          
+          En este punto es necesario destacar que existen dos tipos de mantenimiento correctivo: El mantenimiento correctivo
+          contingente y el mantenimiento correctivo programado.
+          
+          El mantenimiento correctivo contingente, también llamado “No planificado”, es el mantenimiento que se lleva a cabo
+          exactamente luego de que ocurra un fallo en la computadora, y que es necesario realizar ya que de otra manera no se
+          puede utilizar.
+        </p>
+        <center><img src="img/correctivo.png" class="d-block w-100" alt="correctivo" style="height: 500px;"></center>
+      </article>
+      <article>
+        <a name=limpia id=limpia></a>
+        <h2>Limpia tu PC</h2>        
+        <p>
+          Muchos usuarios se preocupan de optimizar su PC internamente, sacando los virus, desinstalando los programas que son
+          poco utilizados y demás tareas, pero se olvidan de la parte más visible de la PC, que es su parte exterior. Una PC
+          debidamente limpia puede funcionar más rápido y aumentar su vida útil.
+          
+          Todos sabemos que la limpieza de nuestra casa es algo que se debe realizar con cierta frecuencia. Es necesario recordar
+          que la PC forma parte de la lista de objetos que acumulan suciedad y necesitan ser limpiados.
+        </p>
+        <center><img src="img/pcsucia.jpg" class="d-block w-100" alt="pcsucia" style="height: 500px;"></center>
+      </article>
+    </section>       
+
+    <div class="container-fluid p-1 mt-2 bg-info text-white">
+          <p class="text-center">Derechos reservados (2021)
+          <br>David Carmelo Caballero Duerto 
+          <br>C.I 17863273
+          </p>
+    </div>
+
+    <!-- Enlace archivos de JavaScript -->
+    <!-- Primero enlazar a la libreria jQuery, luego el script Popper.js, por ultimo el script Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
